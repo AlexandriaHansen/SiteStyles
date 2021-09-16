@@ -1,0 +1,158 @@
+body {
+    font-family: sans-serif; 
+}
+
+.sectionhead {
+    display: block;
+}
+
+/*@font-face {
+    font-family: Raleway;
+    src: url('Raleway-Light.ttf');
+}*/
+
+/*Header & Nav*/
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D5DAE6;
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+nav {
+    padding-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #B2B6BF;
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px black;
+}
+
+/*nav a:visited {
+
+}*/
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #EDF3FF;
+}
+
+nav a:active {
+    transform: translate(10px);
+}
+
+main {
+    padding-top: 70px;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 26px;
+}
+
+/*Colors*/
+
+.color-scheme {
+    display: flex;
+    justify-content: space-between
+}
+.color-box {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+}
+
+.mint-gum {
+    background-color: #CEF5E0;
+}
+.sage {
+    background-color: #AEDBBB;
+}
+.baby-pink {
+    background-color: #FED7DF;
+}
+.lilac {
+    background-color: #D8BEEB;
+}
+.vintage-pink {
+    background-color: #E39FC5;
+}
+
+/*Fonts*/
+
+h4 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
+.font-box {
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+}
+
+.font1 {
+    font-family: Cochin, serif;
+}
+.font2 {
+    font-family: Helvetica, sans-serif;
+}
+.font3 {
+    font-family: 'Segoe UI', serif;
+}
+
+/*Text Styles*/
+
+.text-box {
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+}
+.header {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Cochin;
+    text-decoration: underline;
+}
+.subheading {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Helvetica;
+    text-decoration: underline;
+}
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    text-decoration: underline;
+}
+
+/*Media Queries*/
